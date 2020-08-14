@@ -17,14 +17,27 @@
     <link rel="stylesheet" href="css/style.css">
     <style>
       @media screen and (max-width: 600px) {
-        .imgs{
+        .boxx {
         display:none;
         }
+        .absolute-box img{
+          width: 100%;
+          height: auto;
+          margin-bottom: 50px;
+        }
 
-      }
-      .imgs{
-        padding-left:60px;
-      }
+}
+      .absolute-box {
+        position: relative; }
+        .absolute-box .boxx {
+          position: absolute;
+          background: #102950;
+          width: 450px;
+          height: 400px;
+          top: -5%;
+          left: -20%;
+        z-index: -1;}
+
 
     </style>
 
@@ -82,9 +95,20 @@
 
 				</div><br><br>
 				<div class="row">
-          <div class="col-md-7"  >
-            <img src="images/1.jpg" height="500" width="500" class="imgs"></img>
-					</div>
+          <div class="col-md-7" >
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                      <div class="absolute-box" >
+                        <br>
+                        <img src="images/sty.jpg" alt="Image" class="img-fluid1" width="550px;" height="450px;">
+                        <div class="boxx">
+                        </div></div>
+
+                    </div>
+                  </div>
+                    </div>
+        </div>
           <div class="col-md-5">
             <p style="font-family: 'Libre Baskerville', serif;font-size:50px;color:#102950;">Who we are</p>
             <p style="font-family: 'Libre Franklin', sans-serif;font-size:25px;color:gray;">" Do Things That Matters. Plan. Create. Grow."</p>
