@@ -141,7 +141,7 @@ h1, h2, h3, h4, h5,
   .site-navbar .site-navigation .site-menu {
     margin-bottom: 0; }
     .site-navbar .site-navigation .site-menu .active {
-      color: #F8C500;
+
       display: inline-block;
       padding: 5px 20px; }
     .site-navbar .site-navigation .site-menu a {
@@ -1600,7 +1600,8 @@ footer{
 
 }
 footer p{
-  font-weight:200;
+  padding-top: 5px;
+  font-weight:bold;
   font-size: 15px;
   text-align: center;
 }
