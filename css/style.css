@@ -1617,7 +1617,7 @@ footer p{
   position: relative;
   display: block;
   font-weight: bold;
-  font-size: 5rem;
+  font-size: 5.5rem;
   line-height: 1.2;
   text-decoration: none;
   color: #fff;
@@ -1625,6 +1625,11 @@ footer p{
   user-select: none;
 
 }
+.navig__link:hover{
+
+
+  }
+
 .slide-right {
 width:100%;
 
