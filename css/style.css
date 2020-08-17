@@ -1625,9 +1625,24 @@ footer p{
   user-select: none;
 
 }
-.navig__link:hover{
+#maincontent {
+  margin-top:50px;
+}
+.navig__link::before{
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0px;
+  height: 3px;
+  background: #000;
+  transition: 0.5s;
 
-
+  }
+  .navig__link:hover::before{
+    width: 50%;
+  transform: translateX(100%);
+  transform: scale(0.9);
   }
 
 .slide-right {
