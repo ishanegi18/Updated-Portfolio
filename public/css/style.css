@@ -1323,7 +1323,7 @@ a:hover {
   .abt p {
     position: absolute;
     top: -30px;
-    font-size: 35px;
+    font-size: 32px;
     font-weight: bolder;
   }
 }
@@ -1494,48 +1494,12 @@ Our team
 
   .sty p {
     position: absolute;
-    top: -35px;
-    font-size: 40px;
+    top: -30px;
+    font-size: 32px;
     font-weight: bolder;
   }
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1500px) {
-  .case-img img {
-    display: none;
-  }
-  .case-desc h3 {
-    font-size: 40px;
-    font-weight: 600;
-    text-align: center;
-  }
-  .case-desc {
-    width: auto;
-    height: auto;
-    margin-top: 10px;
-  }
-  .case-desc .tag span {
-    font-size: 30px;
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-  }
 
-  .case-desc p {
-    font-size: 30px;
-  }
-  .sty {
-    margin-right: 120px;
-    height: 70px;
-    padding-left: 70px;
-    position: relative;
-  }
-
-  .sty p {
-    position: absolute;
-    top: -60px;
-    font-size: 60px;
-  }
-}
 /* end story */
 /* service */
 
