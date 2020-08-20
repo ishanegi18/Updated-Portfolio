@@ -1,0 +1,107 @@
+@media screen and (max-width: 991.98px) {
+  .contact-section .box {
+    margin-bottom: 30px;
+  }
+
+  .img-md-fluid {
+    max-width: 100%;
+  }
+
+  .display-1,
+  .display-3 {
+    font-size: 3rem;
+  }
+
+  .image-absolute-box .box {
+    top: auto;
+    right: auto;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .img-absolute img {
+    max-width: 100%;
+  }
+
+  .intro-section:before {
+    width: 100%;
+  }
+
+  .site-section {
+    padding: 4em 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .abt {
+    margin-right: 100px;
+    height: 70px;
+
+    padding-left: 60px;
+    position: relative;
+  }
+
+  .image-absolute-box p {
+    display: none;
+  }
+
+  .about_e_details p {
+    margin-top: 0px;
+  }
+
+  .abt p {
+    position: absolute;
+    top: -30px;
+    font-size: 32px;
+    font-weight: bolder;
+  }
+
+  .about_me .about_e_details {
+    margin-bottom: 30px;
+  }
+
+  .case-img img {
+    display: none;
+  }
+  .case-desc {
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+  }
+
+  .sty {
+    margin-top: 50px;
+    margin-right: 80px;
+    height: 70px;
+    padding-left: 60px;
+    position: relative;
+  }
+
+  .sty p {
+    position: absolute;
+    top: -30px;
+    font-size: 32px;
+    font-weight: bolder;
+  }
+
+  .site-section {
+    padding: 5em 0;
+  }
+
+  .heading-section h2 {
+    font-size: 28px;
+  }
+
+  .ftco-section {
+    padding: 6em 0;
+  }
+
+  .site-section-heading {
+    font-size: 3rem;
+  }
+}
