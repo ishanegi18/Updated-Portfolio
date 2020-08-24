@@ -738,7 +738,7 @@ a:hover {
   font-size: 2rem;
 }
 
-.image-absolute-box .box h3 {
+.image-absolute-box .box h2 {
   font-size: 1.6rem;
   color: #f1c000;
   margin-bottom: 1.5rem;
@@ -1618,7 +1618,7 @@ Our team
 
 .services .icon {
   position: relative;
-  margin-top: -60px;
+
   width: 80px;
   height: 80px;
   background: #102950;
@@ -1643,12 +1643,13 @@ Our team
 .services .media-body h3 {
   font-size: 18px;
   font-weight: 500;
+  color: #000;
 }
 
 .services:hover {
   background: #102950 !important;
   cursor: pointer;
-  color: black;
+  color: #fff;
 }
 
 .services:hover .icon {
@@ -1661,7 +1662,7 @@ Our team
 }
 
 .services:hover h3 {
-  color: #f8c500;
+  color: #fff;
 }
 
 .services:hover p {
