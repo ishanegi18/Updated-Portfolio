@@ -666,7 +666,7 @@ a:hover {
 
 .img-absolute {
   position: absolute;
-  right: 20%;
+  right: 25%;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -1803,12 +1803,12 @@ p {
 footer {
   background-color: #f8c500;
   color: black;
-  padding: 5px;
+  padding: 2px;
 }
 
 footer p {
-  padding-top: 5px;
-  font-weight: bold;
+  padding-top: 8px;
+  font-weight: 400;
   font-size: 15px;
   text-align: center;
 }
