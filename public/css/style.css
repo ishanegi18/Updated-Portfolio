@@ -666,7 +666,7 @@ a:hover {
 
 .img-absolute {
   position: absolute;
-  right: 25%;
+  right: -18%;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
