@@ -110,7 +110,13 @@ a:hover {
 .btn.btn-border-1:hover::before {
   transition: width 0.1s ease, height 0.1s ease 0.1s;
 }
-
+.cp {
+  font-size: 22px;
+  padding-top: 15px;
+  letter-spacing: 1px;
+  font-weight: 900;
+  color: #000;
+}
 .site-wrap:before {
   display: none;
   -webkit-transition: 0.3s all ease-in-out;
