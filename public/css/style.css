@@ -111,7 +111,7 @@ a:hover {
   transition: width 0.1s ease, height 0.1s ease 0.1s;
 }
 .cp {
-  font-size: 22px;
+  font-size: 15px;
   padding-top: 15px;
   letter-spacing: 1px;
   font-weight: 900;
@@ -737,7 +737,7 @@ a:hover {
 
 .img-absolute {
   position: absolute;
-  right: -22%;
+  right: -10%;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
